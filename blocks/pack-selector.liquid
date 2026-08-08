@@ -84,9 +84,9 @@
     data-block-id="{{ block.id }}"
     data-selected-quantity="1"
     style="
-      --selected-border-color: {{ block_settings.selected_border_color | default: '#2e0808' }};
+      --selected-border-color: {{ block_settings.selected_border_color | default: '#000000' }};
       --selected-bg-color: {{ block_settings.selected_bg_color | default: '#fbf5f2' }};
-      --badge-bg-color: {{ block_settings.badge_bg_color | default: '#2e0808' }};
+      --badge-bg-color: {{ block_settings.badge_bg_color | default: '#000000' }};
       --badge-text-color: {{ block_settings.badge_text_color | default: '#ffffff' }};
       --card-border-color: {{ block_settings.card_border_color | default: '#e7dddd' }};
     "
@@ -186,7 +186,7 @@
       font-weight: 700;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      color: #2e0808;
+      color: #000000;
       margin-bottom: 12px;
     }
 
@@ -217,7 +217,7 @@
     .pack-card.active {
       border-color: var(--selected-border-color);
       background-color: var(--selected-bg-color);
-      box-shadow: 0 4px 12px rgba(46, 8, 8, 0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
 
     .pack-card-inner {
@@ -287,7 +287,7 @@
     .pack-card-name {
       font-size: 14px;
       font-weight: 700;
-      color: #2e0808;
+      color: #000000;
     }
 
     .pack-card-prices {
@@ -300,7 +300,7 @@
     .pack-price-sale {
       font-size: 14px;
       font-weight: 700;
-      color: #2e0808;
+      color: #000000;
     }
 
     .pack-price-compare {
@@ -534,7 +534,7 @@
       "type": "color",
       "id": "selected_border_color",
       "label": "Selected Border Color",
-      "default": "#2e0808"
+      "default": "#000000"
     },
     {
       "type": "color",
@@ -546,7 +546,7 @@
       "type": "color",
       "id": "badge_bg_color",
       "label": "Save Badge Background Color",
-      "default": "#2e0808"
+      "default": "#000000"
     },
     {
       "type": "color",

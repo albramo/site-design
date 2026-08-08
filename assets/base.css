@@ -3974,7 +3974,7 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
 }
 
 .product-details product-price .price-item--sale {
-  color: #e53935 !important;
+  color: #000000 !important;
   font-size: 1.8rem !important;
   font-weight: 700 !important;
   letter-spacing: -0.02em;
@@ -3989,13 +3989,13 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
 }
 
 .product-details product-price .product-card__badge--sale {
-  background: linear-gradient(135deg, var(--color-brand-mahogany, #a32a2a) 0%, var(--color-brand-burgundy, #721c1c) 100%) !important;
-  color: #fff !important;
+  background: linear-gradient(135deg, var(--color-brand-muted-pink, #80c4e9) 0%, var(--color-brand-mahogany, #a8e0f5) 100%) !important;
+  color: #000000 !important;
   font-size: 0.75rem !important;
   font-weight: 600 !important;
   padding: 4px 10px !important;
   border-radius: 6px !important;
-  box-shadow: 0 2px 6px rgba(255, 23, 68, 0.18) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
   display: inline-block !important;
   vertical-align: middle !important;
   margin-bottom: 0 !important;
@@ -4005,7 +4005,7 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
 }
 
 .complete-routine__item-price .current-price--sale {
-  color: #e53935 !important;
+  color: #000000 !important;
 }
 
 /* Global loading spinner style for Add to Cart and general buttons */

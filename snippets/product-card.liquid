@@ -1028,8 +1028,8 @@
     height: 38px;
     border-radius: 50%;
     background: #ffffff;
-    color: var(--color-brand-dark, #2e0808);
-    border: 1px solid rgba(46, 8, 8, 0.08);
+    color: var(--color-brand-dark, #000000);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     display: flex;
     align-items: center;
@@ -1040,10 +1040,10 @@
   }
 
   .product-card__quick-view-btn:hover {
-    background: var(--color-brand-burgundy, #800020);
-    color: #ffffff;
+    background: var(--color-brand-muted-pink, #80c4e9);
+    color: #000000;
     transform: scale(1.12);
-    box-shadow: 0 6px 18px rgba(128, 0, 32, 0.3);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   }
 
   .product-card__quick-view-btn svg {
@@ -1163,9 +1163,9 @@
   }
 
   .product-card__qty .product-card__qty-selector :is(.quantity-minus, .quantity-plus):hover:not(:disabled) {
-    background: var(--color-brand-burgundy) !important;
-    border-color: var(--color-brand-burgundy) !important;
-    color: #ffffff;
+    background: var(--color-brand-muted-pink, #80c4e9) !important;
+    border-color: var(--color-brand-muted-pink, #80c4e9) !important;
+    color: #000000 !important;
     transform: scale(1.06);
   }
 
@@ -1406,7 +1406,7 @@
 
   /* Elegant red for the price once a discount is applied */
   .product-card__current-price--sale {
-    color: #e53935;
+    color: #000000;
   }
 
   /* ── Buy button ───────────────────────────────── */
@@ -1620,7 +1620,8 @@
   }
 
   .product-card__buy-btn:hover {
-    background: var(--color-brand-burgundy);
+    background: var(--color-brand-muted-pink, #80c4e9);
+    color: #000000;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgb(var(--color-brand-dark-rgb) / 0.2);
   }
@@ -1628,8 +1629,8 @@
   /* ── Sale badge (from theme) ──────────────────── */
   .product-card__badge--sale {
     display: inline-block;
-    background: var(--color-brand-mahogany);
-    color: #ffffff;
+    background: var(--color-brand-mahogany, #a8e0f5);
+    color: #000000;
     font-family: var(--font-body--family);
     font-size: 0.62rem;
     font-weight: 700;
